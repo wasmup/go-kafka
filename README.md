@@ -1,9 +1,7 @@
 
-## Local install
-```sh
-docker run --rm --name prometheus1 --net=host -v $PWD/config/:/etc/prometheus/ prom/prometheus
-bitnami/zookeeper  
-bitnami/kafka   
+## Run
 
-go install -ldflags=-s
+```sh
+make
+go run .
 ```
